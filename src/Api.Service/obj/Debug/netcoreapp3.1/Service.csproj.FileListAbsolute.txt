@@ -7,3 +7,10 @@ C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreC
 C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
 C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\cursoCSharpUdemy\src\Api.Service\bin\Debug\netcoreapp3.1\CrossCutting.dll
+C:\cursoCSharpUdemy\src\Api.Service\bin\Debug\netcoreapp3.1\Data.dll
+C:\cursoCSharpUdemy\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
+C:\cursoCSharpUdemy\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\cursoCSharpUdemy\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
+C:\cursoCSharpUdemy\src\Api.Service\bin\Debug\netcoreapp3.1\CrossCutting.pdb
+C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
