@@ -25,7 +25,7 @@ namespace Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<DateTime?>("CreateAt")
+                    b.Property<DateTime?>("CreatAt")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")

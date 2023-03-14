@@ -14,7 +14,6 @@ namespace Api.Data.Context
 
         public MyContext(DbContextOptions<MyContext> options) : base(options)
         {
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
