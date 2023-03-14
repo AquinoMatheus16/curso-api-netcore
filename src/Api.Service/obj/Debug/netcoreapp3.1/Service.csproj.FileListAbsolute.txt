@@ -6,3 +6,4 @@ C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo
 C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
 C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+C:\cursoCSharpUdemy\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
