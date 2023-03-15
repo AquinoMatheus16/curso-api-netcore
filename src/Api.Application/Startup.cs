@@ -1,9 +1,11 @@
+using System;
 using Api.CrossCutting.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace application
 {
@@ -21,9 +23,28 @@ namespace application
         {
             ConfigureService.ConfigureDependenciesService(services);
             ConfigureRepository.ConfigureDependenciesRepositoory(services);
-
             services.AddControllers();
-            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Curso de API com AspNetCore 3.1",
+                    Description = "Arquitetura DDD",
+                    TermsOfService = new Uri("http://www.mfrinfo.com.br"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Matheus Aquino",
+                        Email = "matheus@gmail.com",
+                        Url = new Uri("https://github.com/AquinoMatheus16")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Termo de Licença de uso",
+                        Url = new Uri("https://github.com/AquinoMatheus16")
+                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,6 +54,13 @@ namespace application
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseRouting();
 
