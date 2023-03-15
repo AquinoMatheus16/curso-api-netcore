@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EfkxACfEdvKN4eC3H1S9EjGoRGVFVe+/D3qzn/33evMBAIHAJbJqSpYs46WDoDWvjKCBXWIuZktiGkVmqk37dw==",
+  "dgSpecHash": "Hka9mfyqWfpjO3+3D4KCgrliXtg+uumnVS0uuTLbbl10j09Ssw9zRR9x3VMeT0BoMyg3mnJSdGCoO6YuE6foIg==",
   "success": true,
   "projectFilePath": "C:\\cursoCSharpUdemy\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aquin\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\aquin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\aquin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.6\\microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "C:\\Users\\aquin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\aquin\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\aquin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
