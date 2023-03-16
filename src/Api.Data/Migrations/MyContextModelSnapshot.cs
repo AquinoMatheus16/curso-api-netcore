@@ -23,7 +23,7 @@ namespace Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<DateTime?>("CreatAt")
+                    b.Property<DateTime?>("CreateAt")
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")
@@ -44,6 +44,16 @@ namespace Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("c76b73e4-8d01-4b86-939b-db198825954d"),
+                            CreateAt = new DateTime(2023, 3, 16, 15, 24, 41, 433, DateTimeKind.Local).AddTicks(9329),
+                            Email = "m@gmail.com",
+                            Name = "admin",
+                            UpdateAt = new DateTime(2023, 3, 16, 15, 24, 41, 437, DateTimeKind.Local).AddTicks(1595)
+                        });
                 });
 #pragma warning restore 612, 618
         }

@@ -10,7 +10,7 @@ namespace Api.Domain.Entities
 
         private DateTime? _creatAt;
 
-        public DateTime? CreatAt
+        public DateTime? CreateAt
         {
             get { return _creatAt; }
             set { _creatAt = (value == null ? DateTime.UtcNow : value); }
