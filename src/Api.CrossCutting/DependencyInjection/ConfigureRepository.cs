@@ -1,3 +1,4 @@
+using System;
 using Api.Data.Context;
 using Api.Data.Implementations;
 using Api.Data.Repository;
@@ -16,8 +17,17 @@ namespace Api.CrossCutting.DependencyInjection
 
             serviceCollection.AddScoped<IUserRepository, UserImplementation>();
 
+            // if(Environment.GetEnvironmentVariable("DATABASE").ToLower() == "SQLSERVER".ToLower())
+            // {
+            //    serviceCollection.AddDbContext<MyContext>(
+            //    options => options.UseSqlServer(Environment.GetEnvironmentVariable("DB_CONNECTION")));
+            // }
+
+            // serviceCollection.AddDbContext<MyContext>(
+            //     options => options.UseMySql("Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=mudar@123")
+            // );
             serviceCollection.AddDbContext<MyContext>(
-                options => options.UseMySql("Server=localhost;Port=3306;Database=dbAPI;Uid=root;Pwd=mudar@123")
+                options => options.UseMySql(Environment.GetEnvironmentVariable("DB_CONNECTION"))
             );
         }
     }
