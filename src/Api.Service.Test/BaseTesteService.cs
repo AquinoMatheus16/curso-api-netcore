@@ -5,11 +5,11 @@ using Xunit;
 
 namespace Api.Service.Test
 {
-    public abstract class BaseTestService
+    public abstract class BaseTesteService
     {
         public IMapper Mapper { get; set; }
 
-        public BaseTestService()
+        public BaseTesteService()
         {
             Mapper = new AutoMapperFixture().GetMapper();
         }

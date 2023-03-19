@@ -9,7 +9,7 @@ using Xunit;
 
 namespace Api.Service.Test.AutoMapper
 {
-    public class UsuarioMapper : BaseTestService
+    public class UsuarioMapper : BaseTesteService
     {
         [Fact(DisplayName = "É possível mapear os modelos.")]
         public void E_Possivel_Mapear_os_Modelos()
