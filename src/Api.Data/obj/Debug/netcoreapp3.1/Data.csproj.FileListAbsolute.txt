@@ -1,0 +1,15 @@
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
+C:\cursoCSharpUdemy\src\Api.Data\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
+C:\cursoCSharpUdemy\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
