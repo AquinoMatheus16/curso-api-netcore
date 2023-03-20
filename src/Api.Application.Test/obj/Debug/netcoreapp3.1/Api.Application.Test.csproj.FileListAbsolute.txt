@@ -160,3 +160,4 @@ C:\cursoCSharpUdemy\src\Api.Application.Test\obj\Debug\netcoreapp3.1\Api.Applica
 C:\cursoCSharpUdemy\src\Api.Application.Test\obj\Debug\netcoreapp3.1\Api.Application.Test.dll
 C:\cursoCSharpUdemy\src\Api.Application.Test\obj\Debug\netcoreapp3.1\Api.Application.Test.pdb
 C:\cursoCSharpUdemy\src\Api.Application.Test\obj\Debug\netcoreapp3.1\Api.Application.Test.genruntimeconfig.cache
+c:\cursoCSharpUdemy\src\Api.Application.Test\bin\Debug\netcoreapp3.1\xunit.runner.json
